@@ -2,7 +2,7 @@ body{
     box-sizing: border-box;
     position: relative;
     margin: 0;
-    background-color: rgb(248, 217, 214);
+    /* background-color: cadetblue; */
 }
 
 ul li  {
@@ -19,7 +19,7 @@ ul li  {
     border: 2px solid black;
     padding: 1.2em;
     height: 2em;
-    margin-top: .3em;
+    margin-top: 0;
      margin-left: 1.2em;
      text-align: center;
      justify-content: center;
@@ -37,9 +37,8 @@ margin-left: 10em;
 }
  p a  {
    position: absolute;
-   /* position: relative; */
-    top: 5px;
-   left: 30px; 
+   top: 5px;
+   left: 30px;
 
 }
 .side-bar ul {
@@ -47,7 +46,7 @@ margin-left: 10em;
     display: flex;
     flex-direction: column;
     border: 2px solid black;
-    width: 5em;
+    width: 5.4em;
     height: 80vh;
     margin-top: 0;
     margin-left: 1.2em;
@@ -58,6 +57,7 @@ text-align: center;
 
 .side-bar ul li {
 padding: 3em 0;
+
 }
 i {
     font-size: 1.5em;
@@ -73,6 +73,7 @@ i {
 .first-body {
     display: block;
     position: relative;
+    margin-top: 2em;
     /* border: 2px solid black; */
     width: 30%;
     max-width: 50%;
@@ -117,33 +118,24 @@ width: 50%;
 max-width: 50%;
 }
 .foot {
-    position: relative;
     display: flex;
-    /* border: 2px solid black; */
-    padding: 3em 0;
-    margin-bottom: -2em;
-    /* margin-top:30em; */
+    border: 2px solid black;
+    padding: 10em 0;
+    margin-bottom: 0;
+    margin-top:-30em;
 }
 
 .get {
-    margin-left: 15em;
-    font-size: 2em;
-    margin-top: 2em;
-    color: white;
-    z-index: 1;
-    /* margin-right: em; */
+    margin-left: auto;
+    margin-right: 1em;
     line-height: 10px;
 }
 .form {
-    z-index: 1;
-    color: white;
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 20px;
-    width: 10%;
-    height: 10%;
-    padding: .5em;
-    margin-left: 10em;
-   /* background-color: thistle; */
+    border: 2px solid black;
+    width: 25%;
+    padding: 2em;
+    margin-left: 5em;
+   background-color: thistle;
     /* margin: 2em; */
 }
 /* #name {
@@ -171,32 +163,4 @@ margin: 2em;
     border: 2px solid none;
     border-radius: 3px;
     padding: .5em 2em;
-}
-
-.custom-shape-divider-bottom-1606250649 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-bottom-1606250649 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 377px;
-}
-
-.custom-shape-divider-bottom-1606250649 .shape-fill {
-    fill: #000000;
-}
-
-/** For mobile devices **/
-@media (max-width: 767px) {
-    .custom-shape-divider-bottom-1606250649 svg {
-        width: calc(100% + 1.3px);
-        height: 171px;
-    }
 }
