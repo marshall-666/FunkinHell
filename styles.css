@@ -3,7 +3,7 @@ body{
     position: relative;
     margin: 0;
     background-color: rgb(248, 217, 214);
-    background-image: url(backdrop.png), radial-gradient(circle, white, cadetblue);
+    background-image: url(backdrop.png), radial-gradient(circle, white, royalblue );
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
@@ -24,7 +24,7 @@ ul li  {
     font-family: 'Montserrat', sans-serif;
     padding: 1.2em;
     height: 2em;
-    margin-top: .3em;
+    margin-top: 0em;
      margin-left: 1.2em;
      text-align: center;
      justify-content: center;
@@ -140,6 +140,11 @@ max-width: 50%;
     /* margin-right: em; */
     line-height: 10px;
     font-family: 'Montserrat', sans-serif;
+}
+
+.get:hover{
+    font-kerning: auto;
+
 }
 .form {
     z-index: 1;

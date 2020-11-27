@@ -3,10 +3,10 @@ body{
     position: relative;
     margin: 0;
     /* background-color: cadetblue; */
-   /* background-image: url(backdrop.png), radial-gradient(circle, white, cadetblue);
+   background-image: url(backdrop.png), radial-gradient(circle, white, violet);
     background-repeat: no-repeat;
     background-position-x: center;
-    background-position-y: center; */
+    background-position-y: center; 
 }
 
 ul li  {
@@ -123,29 +123,41 @@ transform: translateY(-65rem);
     width: 50%;
     max-width: 50%;
 }
+
 .foot {
+    position: relative;
     display: flex;
-    border: 2px solid black;
-    padding: 10em 0;
-    margin-bottom: 0;
-    margin-top:-30em;
+    /* border: 2px solid black; */
+    padding: 3em 0;
+    margin-bottom: -2em;
+    /* margin-top:30em; */
 }
 
 .get {
-    margin-left: auto;
-    margin-right: 1em;
+    margin-left: 15em;
+    font-size: 2em;
+    margin-top: 2em;
+    color: white;
+    z-index: 1;
+    /* margin-right: em; */
     line-height: 10px;
     font-family: 'Montserrat', sans-serif;
 }
+
 .form {
-    border: 2px solid black;
-    width: 25%;
-    padding: 2em;
-    margin-left: 5em;
-   background-color: thistle;
-   font-family: 'Montserrat', sans-serif;
+    z-index: 1;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 10%;
+    height: 10%;
+    padding: .5em;
+    margin-left: 10em;
+    font-family: 'Montserrat', sans-serif;
+   /* background-color: thistle; */
     /* margin: 2em; */
 }
+
 /* #name {
     margin: 2em;
 }
@@ -180,4 +192,32 @@ margin: 2em;
 
 .discription{
     font-family: 'Nunito', sans-serif;
+}
+
+.custom-shape-divider-bottom-1606250649 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1606250649 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 377px;
+}
+
+.custom-shape-divider-bottom-1606250649 .shape-fill {
+    fill: #000000;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1606250649 svg {
+        width: calc(100% + 1.3px);
+        height: 171px;
+    }
 }
