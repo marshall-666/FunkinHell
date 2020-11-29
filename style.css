@@ -98,13 +98,62 @@ transform: translateY(-65rem);
 .box1 {
     display: flex;
     flex-wrap: wrap;
+    /* width: 20%; */
 }
+
+#left-text {
+    position: relative;
+width: 50%;
+transform: translateY(2em);
+}
+
 .right{
     margin-left: auto;
+   
 }
-.inbox{
-    
-    background-color: coral;
+
+#logo-top {
+    background-image: url(/images/Artboard\ 5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#right-text {
+    position: relative;
+    width: 50%;
+    transform: translateY(2em);
+    transform: translateX(35rem);
+    order: 1;
+    justify-content: flex-end;
+} 
+
+#image2{
+    position: relative;
+    background-image: url(/images/full.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: -5rem;
+    order: 0;
+}
+
+#right-text2 {
+    position: relative;
+    width: 50%;
+    transform: translateY(1em);
+    transform: translateX(30rem);
+    order: 1;
+    justify-content: flex-end;
+} 
+#image3{
+    background-image: url(/images/full.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.inbox{     
+    background-color: rgba(0, 0, 0, 0);
     height: 7em;
     padding: 5em 0;
     width: 50%;

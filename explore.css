@@ -2,7 +2,12 @@ body{
     box-sizing: border-box;
     position: relative;
     margin: 0;
-    background-color: rgb(248, 217, 214);
+  
+    background-image: url(backdrop.png), radial-gradient(circle, white, crimson);
+
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center; 
 }
 
 ul li  {
