@@ -3,7 +3,7 @@ body{
     position: relative;
     margin: 0;
     /* background-color: cadetblue; */
-   background-image: url(backdrop.png), radial-gradient(circle, white, crimson);
+   background-image: url(backdrop.png), radial-gradient(circle, white, #f05c79);
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center; 

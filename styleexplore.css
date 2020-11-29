@@ -2,7 +2,7 @@ body{
     box-sizing: border-box;
     position: relative;
     margin: 0;
-    background-image: url(backdrop.png), radial-gradient(circle, white, greenyellow);
+    background-image: url(backdrop.png), radial-gradient(circle, white, #ccff80);
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center; 
