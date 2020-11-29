@@ -2,14 +2,11 @@ body{
     box-sizing: border-box;
     position: relative;
     margin: 0;
-    /* background-color: cadetblue; */
-<<<<<<< HEAD
-=======
-   background-image: url(backdrop.png), radial-gradient(circle, white, violet);
+    background-color: rgb(248, 217, 214);
+    background-image: url(backdrop.png), radial-gradient(circle, white, royalblue );
     background-repeat: no-repeat;
     background-position-x: center;
-    background-position-y: center; 
->>>>>>> second
+    background-position-y: center;
 }
 
 ul li  {
@@ -24,13 +21,10 @@ ul li  {
 .navigation {
     display: flex;
     border: 2px solid black;
-<<<<<<< HEAD
-=======
     font-family: 'Montserrat', sans-serif;
->>>>>>> second
     padding: 1.2em;
     height: 2em;
-    margin-top: 0;
+    margin-top: 0em;
      margin-left: 1.2em;
      text-align: center;
      justify-content: center;
@@ -44,16 +38,14 @@ margin-left: 10em;
 }
 .side{
     display: inline;
-<<<<<<< HEAD
-=======
     z-index: 1;
->>>>>>> second
     /* position: fixed; */
 }
  p a  {
    position: absolute;
-   top: 5px;
-   left: 30px;
+   /* position: relative; */
+    top: 5px;
+   left: 30px; 
 
 }
 .side-bar ul {
@@ -61,11 +53,8 @@ margin-left: 10em;
     display: flex;
     flex-direction: column;
     border: 2px solid black;
-<<<<<<< HEAD
-=======
     font-family: 'Montserrat', sans-serif;
->>>>>>> second
-    width: 5.4em;
+    width: 5em;
     height: 80vh;
     margin-top: 0;
     margin-left: 1.2em;
@@ -76,7 +65,6 @@ text-align: center;
 
 .side-bar ul li {
 padding: 3em 0;
-
 }
 i {
     font-size: 1.5em;
@@ -92,7 +80,6 @@ i {
 .first-body {
     display: block;
     position: relative;
-    margin-top: 2em;
     /* border: 2px solid black; */
     width: 30%;
     max-width: 50%;
@@ -130,42 +117,12 @@ transform: translateY(-65rem);
     width: 50%;
     }
 
-<<<<<<< HEAD
     .left {
         margin-right: auto;
 flex: 1 1 50%;
 width: 50%;
 max-width: 50%;
 }
-.foot {
-    display: flex;
-    border: 2px solid black;
-    padding: 10em 0;
-    margin-bottom: 0;
-    margin-top:-30em;
-}
-
-.get {
-    margin-left: auto;
-    margin-right: 1em;
-    line-height: 10px;
-}
-.form {
-    border: 2px solid black;
-    width: 25%;
-    padding: 2em;
-    margin-left: 5em;
-   background-color: thistle;
-    /* margin: 2em; */
-}
-=======
-.left {
-    margin-right: auto;
-    flex: 1 1 50%;
-    width: 50%;
-    max-width: 50%;
-}
-
 .foot {
     position: relative;
     display: flex;
@@ -186,6 +143,10 @@ max-width: 50%;
     font-family: 'Montserrat', sans-serif;
 }
 
+.get:hover{
+    font-kerning: auto;
+
+}
 .form {
     z-index: 1;
     color: white;
@@ -199,8 +160,6 @@ max-width: 50%;
    /* background-color: thistle; */
     /* margin: 2em; */
 }
-
->>>>>>> second
 /* #name {
     margin: 2em;
 }
@@ -226,17 +185,6 @@ margin: 2em;
     border: 2px solid none;
     border-radius: 3px;
     padding: .5em 2em;
-<<<<<<< HEAD
-=======
-}
-
-#feature{
-    font-family: funkydori, sans-serif;
-    font-size: 75px; 
-}
-
-.discription{
-    font-family: 'Nunito', sans-serif;
 }
 
 .custom-shape-divider-bottom-1606250649 {
@@ -265,5 +213,13 @@ margin: 2em;
         width: calc(100% + 1.3px);
         height: 171px;
     }
->>>>>>> second
+}
+
+#feature{
+    font-family: funkydori, sans-serif;
+    font-size: 75px;
+}
+
+.discription{
+    font-family: 'Nunito', sans-serif;
 }
