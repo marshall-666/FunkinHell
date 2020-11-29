@@ -215,6 +215,18 @@ margin: 2em;
     fill: #000000;
 }
 
+#feature{
+    font-family: funkydori, sans-serif;
+    font-size: 4.5em;
+    line-height: 1;
+    display: block; 
+    box-sizing: border-box;
+    padding-right: 0;
+}
+
+.discription{
+    font-family: 'Nunito', sans-serif;
+}
 /** For mobile devices **/
 @media (max-width: 767px) {
     .custom-shape-divider-bottom-1606250649 svg {
