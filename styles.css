@@ -3,7 +3,7 @@ body{
     position: relative;
     margin: 0;
     background-color: rgb(248, 217, 214);
-    background-image: url(backdrop.png), radial-gradient(circle, white, royalblue );
+    background-image: url(Artboard_2.png), radial-gradient(circle, white, royalblue );
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;

@@ -106,12 +106,61 @@ transform: translateY(-65rem);
     display: flex;
     flex-wrap: wrap;
 }
+
 .right{
     margin-left: auto;
+
 }
+
+#left-text{
+    width: 50%;
+    position: relative;
+    transform: translateY(2em);
+}
+#left-text2{
+    width: 50%;
+    position: relative;
+    transform: translateY(5em);
+}
+#right-text{
+    width: 50%;
+    position: relative;
+    transform: translateY(5em);
+    transform: translateX(45em);
+}
+#right-text2{
+    width: 50%;
+    position: relative;
+    transform: translateY(5em);
+    transform: translateX(45em);
+}
+
+#box1{
+    background-image: url(Band.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translateX(13em);
+
+}
+#box2{
+    background-image: url(Artboard_2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translateX(-45em);
+}
+#box3{
+    background-image: url(Artboard_2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#box4{
+    background-image: url(Artboard_2.png);
+    background-size: contain;
+    background-repeat: no-repeat;    
+    transform: translateX(-45em);
+}
+
 .inbox{
-    
-    background-color: coral;
     height: 7em;
     padding: 5em 0;
     width: 50%;
@@ -226,6 +275,8 @@ margin: 2em;
 .discription{
     font-family: 'Nunito', sans-serif;
 }
+
+
 
 /** For mobile devices **/
 @media (max-width: 767px) {
