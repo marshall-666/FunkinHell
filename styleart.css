@@ -2,7 +2,11 @@ body{
     box-sizing: border-box;
     position: relative;
     margin: 0;
-    background-color: burlywood;
+    /* background-color: burlywood; */
+    background-image: url(backdrop.png), radial-gradient(circle, white, royalblue );
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
     /* background-color: cadetblue; */
 }
 
@@ -72,41 +76,121 @@ i {
 }
 
 .first-body {
-    display: block;
+    display: flex;
     position: relative;
     margin-top: 2em;
+  
     /* border: 2px solid black; */
-    width: 30%;
-    max-width: 50%;
+    width: 80%;
+    /* max-width: 50%; */
     left: 10%;
     transform: translateY(-80rem);
+    justify-content: space-around;
+    /* background-color: coral; */
+    
 } 
+
+#feature{
+    position: relative;
+    font-family: funkydori, sans-serif;
+    font-size: 4.5em;
+    line-height: 1;
+    display: flex;
+    /* flex: 1 0 100%; */
+    flex-wrap: nowrap; 
+    box-sizing: border-box;
+    padding-right: 0;
+    width: 100%;
+}
+
 /* .main-body > div {
     display: inline-block;
 
 } */
 
+.hero-image {
+    /* background-color: cadetblue; */
+    background-image: url(/images/shutter2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    /* margin-right: 20em; */
+    height: 500px;
+    width: 200rem;
+    padding: 10em;
+}
+
+.first-body p.description {
+    color: white;
+    width: 75%;
+    /* margin-left: .5rem; */
+    margin-top: -5em;
+}
+
 .co-box {
     box-sizing: border-box;
-    background-color: cadetblue;
+    background-color: rgba(95, 158, 160, 0.398);
     padding: 3.5em;
     margin: 2em;
     width: 60%;
     position: relative;
 left: 20%;
-transform: translateY(-65rem);
+transform: translateY(-50rem);
 }
 
 .box1 {
     display: flex;
     flex-wrap: wrap;
+    /* transform: translateY(1px); */
 }
+
+#grid-img1 {
+    background-image: url(/images/Artboard\ 5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+#grid-img2{
+    background-image: url(/images/Pastel.jpg);
+    background-size: contain;
+}
+
+#grid-img3{
+    background-image: url(/images/pastel2.jpg);
+}
+#grid-img4{
+    background-image: url(/images/sketch.jpg);
+    background-size: contain;
+}
+
+#left-text {
+    position: relative;
+    width: 50%;
+    transform: translateY(5em);
+    transform: translateX(-1rem);
+    /* order: 1; */
+    justify-content: flex-end;
+} 
+
 .right{
     margin-left: auto;
 }
+
+
+
+#right-text {
+    position: relative;
+    width: 50%;
+    transform: translateY(5em);
+    transform: translateX(2rem);
+    order: 1;
+    justify-content: flex-end;
+} 
+
 .inbox{
     
-    background-color: coral;
+    /* background-color: coral; */
     height: 7em;
     padding: 5em 0;
     width: 50%;
