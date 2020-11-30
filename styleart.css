@@ -3,7 +3,7 @@ body{
     position: relative;
     margin: 0;
     /* background-color: burlywood; */
-    background-image: url(backdrop.png), radial-gradient(circle, white, royalblue );
+    background-image: url(backdrop.png), radial-gradient(circle, white, violet );
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
@@ -22,6 +22,7 @@ ul li  {
 .navigation {
     display: flex;
     border: 2px solid black;
+    font-family: 'Montserrat', sans-serif;
     padding: 1.2em;
     height: 2em;
     margin-top: 0;
@@ -51,6 +52,7 @@ margin-left: 10em;
     display: flex;
     flex-direction: column;
     border: 2px solid black;
+    font-family: 'Montserrat', sans-serif;
     width: 5.4em;
     height: 80vh;
     margin-top: 0;
@@ -121,6 +123,7 @@ i {
 }
 
 .first-body p.description {
+    font-family: 'Nunito', sans-serif;
     color: white;
     width: 75%;
     /* margin-left: .5rem; */
@@ -165,6 +168,7 @@ transform: translateY(-50rem);
 }
 
 #left-text {
+    font-family: 'Nunito', sans-serif;
     position: relative;
     width: 50%;
     transform: translateY(5em);
@@ -180,6 +184,7 @@ transform: translateY(-50rem);
 
 
 #right-text {
+    font-family: 'Nunito', sans-serif;
     position: relative;
     width: 50%;
     transform: translateY(5em);
@@ -288,4 +293,13 @@ margin: 2em;
         width: calc(100% + 1.3px);
         height: 171px;
     }
+}
+
+#feature{
+    font-family: funkydori, sans-serif;
+    font-size: 75px;
+}
+
+.discription{
+    font-family: 'Nunito', sans-serif;
 }
