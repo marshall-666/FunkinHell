@@ -44,10 +44,12 @@ margin-left: 10em;
 }
 .side{
     display: inline;
+    z-index: 1;
     /* position: fixed; */
 }
  p a  {
    position: absolute;
+   z-index: 1;
    top: 5px;
    left: 45px;
 
@@ -159,13 +161,13 @@ i {
 
 .hero-image {
     /* background-color: cadetblue; */
-    background-image: url(/images/shutter2.jpg);
+    background-image: url(images/shutter2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: auto;
     /* margin-right: 20em; */
     height: 500px;
-    width: 200rem;
+    width: 50rem;
     padding: 10em;
 }
 
@@ -222,8 +224,12 @@ transition: all 200ms ease-in 400ms;
 }
 
 #grid-img1 {
+<<<<<<< HEAD
     
     background-image: url(/images/Artboard\ 5.png);
+=======
+    background-image: url(images/pastel2.jpg);
+>>>>>>> 452ac942e0658929d36f87c619bd013ac8afe61a
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -231,6 +237,7 @@ transition: all 200ms ease-in 400ms;
 
 
 #grid-img2{
+<<<<<<< HEAD
     box-shadow: 2px 2px 10px rgb(0, 0, 0);
     background-image: url(/images/Pastel.jpg);
     background-size: contain;
@@ -247,6 +254,22 @@ transition: all 200ms ease-in 400ms;
     box-shadow: 2px 2px 10px rgb(0, 0, 0);
     background-size: contain;
     border-radius: 10px;
+=======
+    background-image: url(images/Pastel.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#grid-img3{
+    background-image: url(images/boat.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#grid-img4{
+    background-image: url(images/sketch.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+>>>>>>> 452ac942e0658929d36f87c619bd013ac8afe61a
 }
 
 #left-text {
