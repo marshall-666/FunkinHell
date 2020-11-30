@@ -45,6 +45,8 @@ flex: 1;
 text-align: center;
 margin-left: 10em;
 }
+
+
 .side{
     display: inline;
     z-index: 1;
@@ -74,9 +76,49 @@ text-align: center;
 .side-bar ul li {
 padding: 3em 0;
 }
+
+
+.side-bar ul  a.effect {
+    /* color: white; */
+    position: relative;
+}
+
+ a.effect::after{
+content: '';
+position: absolute;
+top: 1em;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: thistle;
+height: 2px;
+width: 100%;
+transform: scaleX(0);
+transform-origin: left;
+transition: all 250ms ease-in;
+}
+
+.side-bar ul  a.effect:hover::after {
+transform: scaleX(1);
+transform-origin: right;
+}
+
+
 i {
     font-size: 1.5em;
+    
+    /* margin-bottom: 1em; */
 }
+
+.icons ul li a i {
+    transition: all 200ms ease-in-out;
+    
+}
+.icons ul li a i:hover {
+    font-size: 2.5em;
+    color: rgb(38, 145, 202);
+}
+
 .icons ul li a i {
     padding: .5em .5em;
 }
@@ -114,14 +156,40 @@ i {
 
 
 .co-box {
+    position: relative;
     box-sizing: border-box;
-    background-color: cadetblue;
+    background-color: rgba(147, 95, 160, 0.579);
     padding: 3.5em;
     margin: 2em;
     width: 60%;
     position: relative;
 left: 20%;
 transform: translateY(-50rem);
+box-shadow: 2px 2px 5px black;
+z-index: 1;
+transition: all 200ms ease-in 400ms;
+}
+
+.co-box:hover {
+    box-shadow: 4px 4px 10px black; 
+}
+.co-box::after {
+    position: absolute;
+    content: '';
+    background-color: rgba(177, 74, 173, 0.848);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    z-index: -1;
+    transition: all 400ms ease-in; 
+}
+
+.co-box:hover::after {
+    transform: scaleX(1);
+    transform-origin: right;
 }
 
 .box1 {
@@ -162,12 +230,15 @@ transform: translateY(-50rem);
         background-image: url(/images/Artboard\ 5.png);
         background-size: contain;
         background-repeat: no-repeat;
+        
     }
     
     
     #grid-img2{
         background-image: url(/images/Pastel.jpg);
         background-size: contain;
+        border-radius: 10px;
+        /* height: 10px; */
     }
     
     #grid-img3{
@@ -266,6 +337,41 @@ margin: 2em;
     /* margin-left: .5rem; */
     margin-top: -5em;
 }
+
+
+.foot .icons2 ul  {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-around;
+    font-size: 1.5em;
+    /* margin-right: 50em; */
+    margin-left: -10em;
+  
+    /* z-index: 2; */
+}
+
+.foot .icons2 ul li a {
+    color: white;
+    transition: all 200ms ease-in-out;
+}
+.icons2{
+    position: relative;
+    z-index: 1;
+   width: 40%;
+   height: 40px;
+   /* border: 2px solid white; */
+   transform: translateY(15em);
+
+   /* transform: translateX(-50em); */
+}
+
+.icons2 ul li a:hover  {
+font-size: 2em;
+color: rgb(38, 145, 202);
+}
+
 
 .custom-shape-divider-bottom-1606250649 {
     position: absolute;
