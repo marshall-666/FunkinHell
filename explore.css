@@ -3,7 +3,7 @@ body{
     position: relative;
     margin: 0;
   
-    background-image: url(backdrop.png), radial-gradient(circle, white, crimson);
+    background-image: url(backdrop.png), radial-gradient(circle, white, #ccff80);
 
     background-repeat: no-repeat;
     background-position-x: center;
@@ -17,14 +17,20 @@ ul li  {
 .navigation li a, .side-bar ul li a, .icons ul li a {
     text-decoration: none;
     color: black;
+    transition: all 250ms ease-in;
+}
+
+.navigation li .hove1:hover {
+    font-size: 2em;
 }
 
 .navigation {
     display: flex;
     border: 2px solid black;
+    font-family: 'Montserrat', sans-serif;
     padding: 1.2em;
     height: 2em;
-    margin-top: .3em;
+    margin-top: 0em;
      margin-left: 1.2em;
      text-align: center;
      justify-content: center;
@@ -57,6 +63,7 @@ margin-left: 10em;
     display: flex;
     flex-direction: column;
     border: 2px solid black;
+    font-family: 'Montserrat', sans-serif;
     width: 5em;
     height: 80vh;
     margin-top: 0;
@@ -124,6 +131,7 @@ margin-top: -20em;
 
 
 .side-text1{
+    font-family: 'Nunito', sans-serif;
     padding: 1em;
     position: absolute;
 width: 30%;
@@ -135,6 +143,7 @@ top: 13%;
 /* transform: translateY(00%); */
 }
 .side-text2{
+    font-family: 'Nunito', sans-serif;
     padding: 1em;
     position: absolute;
     bottom: 44%;
@@ -203,6 +212,7 @@ max-width: 50%;
     z-index: 1;
     /* margin-right: em; */
     line-height: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 .form {
     z-index: 1;
@@ -213,6 +223,7 @@ max-width: 50%;
     height: 10%;
     padding: .5em;
     margin-left: 10em;
+    font-family: 'Montserrat', sans-serif;
    /* background-color: thistle; */
     /* margin: 2em; */
 }
@@ -305,4 +316,13 @@ margin: 2em;
         width: calc(100% + 1.3px);
         height: 171px;
     }
+}
+
+#feature{
+    font-family: funkydori, sans-serif;
+    font-size: 75px;
+}
+
+.discription{
+    font-family: 'Nunito', sans-serif;
 }
