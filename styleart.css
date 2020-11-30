@@ -44,10 +44,12 @@ margin-left: 10em;
 }
 .side{
     display: inline;
+    z-index: 1;
     /* position: fixed; */
 }
  p a  {
    position: absolute;
+   z-index: 1;
    top: 5px;
    left: 30px;
 
@@ -117,7 +119,7 @@ i {
 
 .hero-image {
     /* background-color: cadetblue; */
-    background-image: url(/images/shutter2.jpg);
+    background-image: url(images/shutter2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: auto;
@@ -153,23 +155,27 @@ transform: translateY(-50rem);
 }
 
 #grid-img1 {
-    background-image: url(/images/Artboard\ 5.png);
+    background-image: url(images/pastel2.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 
 #grid-img2{
-    background-image: url(/images/Pastel.jpg);
+    background-image: url(images/Pastel.jpg);
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #grid-img3{
-    background-image: url(/images/pastel2.jpg);
+    background-image: url(images/boat.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 #grid-img4{
-    background-image: url(/images/sketch.jpg);
+    background-image: url(images/sketch.jpg);
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #left-text {
