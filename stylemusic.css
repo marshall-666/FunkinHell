@@ -143,17 +143,20 @@ i {
 } 
 
 .hero-image {
-    /* background-color: cadetblue; */
-    background-image: url(/images/band2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-left: auto;
-    /* margin-right: 20em; */
-    height: 500px;
-    width: 200rem;
-    padding: 10em;
-    box-shadow: 4px 4px 10px;
+    /* box-sizing: border-box; */
+  /* background-color: cadetblue; */
+  background-image: url(images/band1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  /* margin-right: 20em; */
+  height: 500px;
+  width: 50rem;
+  padding: 10em;
+  box-shadow: 4px 4px 10px;
   border-radius: 3px;
+  /* border-bottom: 50px solid rgb(243, 243, 243); */
+  /* border-bottom: -200px; */
 }
 
 
@@ -231,8 +234,8 @@ transition: all 200ms ease-in 400ms;
     } 
     
     #grid-img1 {
-        background-image: url(/images/Artboard\ 5.png);
-        
+        background-image: url(images/band2.jpg);
+        border-radius: 10px;
         background-size: contain;
         background-repeat: no-repeat;
         
@@ -241,20 +244,22 @@ transition: all 200ms ease-in 400ms;
     
     #grid-img2{
         box-shadow: 2px 2px 10px rgb(0, 0, 0);
-        background-image: url(/images/Pastel.jpg);
+        background-image: url(images/portrait\ 1.JPG);
         background-size: contain;
+        background-repeat: no-repeat;
         border-radius: 10px;
         /* height: 10px; */
     }
     
     #grid-img3{
         box-shadow: 2px 2px 10px rgb(0, 0, 0);
-        background-image: url(/images/pastel2.jpg);
+        background-image: url(images/jazz1.jpg);
         border-radius: 10px;
+        background-size: contain;
     }
     #grid-img4{
         box-shadow: 2px 2px 10px rgb(0, 0, 0);
-        background-image: url(/images/sketch.jpg);
+        background-image: url(images/rap1.jpg);
         background-size: contain;
         border-radius: 10px;
     }
