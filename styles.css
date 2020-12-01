@@ -97,19 +97,115 @@ i {
 }
 
 .first-body {
-    display: block;
+    display: flex;
     position: relative;
+    margin-top: 2em;
+  
     /* border: 2px solid black; */
-    width: 30%;
-    max-width: 50%;
+    width: 80%;
+    /* max-width: 50%; */
     left: 10%;
     transform: translateY(-80rem);
-} 
+    justify-content: space-around;
+    /* background-color: coral; */
+  }
+  
+  .first-body {
+  display: flex;
+  position: relative;
+  margin-top: 2em;
+
+  /* border: 2px solid black; */
+  width: 80%;
+  /* max-width: 50%; */
+  left: 10%;
+  transform: translateY(-80rem);
+  justify-content: space-around;
+  /* background-color: coral; */
+}
+
+#feature {
+  position: relative;
+  /* background-repeat: no-repeat;
+  background-image: url(/images/FunkinHellTransparent2-1.png); */
+  display: flex;
+  /* flex: 1 0 100%; */
+  flex-wrap: nowrap;
+  padding: 0;
+  box-sizing: border-box;
+  padding-right: 0;
+  width: 50%;
+  transform: translateY(-5rem
+  );
+}
+
 /* .main-body > div {
     display: inline-block;
 
 } */
 
+.hero-image {
+    /* box-sizing: border-box; */
+  /* background-color: cadetblue; */
+  background-image: url(images/shutter2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  /* margin-right: 20em; */
+  height: 500px;
+  width: 200rem;
+  padding: 10em;
+  box-shadow: 4px 4px 10px;
+  border-radius: 3px;
+  /* border-bottom: 50px solid rgb(243, 243, 243); */
+  /* border-bottom: -200px; */
+}
+
+.first-body div p.description {
+  font-family: "Nunito", sans-serif;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  /* margin-left: .5rem; */
+  margin-top: -3em;
+  font-size: 1.3em;
+  transform: translateY(-5em);
+}
+  
+#heading {
+    font-size: 1.5em;
+    color:#f72585;
+    font-weight: 700;
+}
+  /* .main-body > div {
+      display: inline-block;
+  
+  } */
+  
+  .hero-image {
+      /* box-sizing: border-box; */
+    /* background-color: cadetblue; */
+    background-image: url(/images/David.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 20rem;
+    /* margin-right: 20em; */
+    height: 500px;
+    width: 80rem;
+    padding: 10em;
+    box-shadow: 4px 4px 10px;
+    border-radius: 3px;
+    /* border-bottom: 50px solid rgb(243, 243, 243); */
+    /* border-bottom: -200px; */
+  }
+  
+  .first-body p.description {
+    font-family: "Nunito", sans-serif;
+    color: white;
+    width: 75%;
+    /* margin-left: .5rem; */
+    margin-top: -5em;
+  }
 .co-box {
     box-sizing: border-box;
     background-color: cadetblue;
